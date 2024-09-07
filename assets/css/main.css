@@ -1481,7 +1481,7 @@ section,
 }
 
 .Banner {
-  max-width: 900px; /* Adjust the width as needed */
+  max-width: 1400px; /* Adjust the width as needed */
   height: auto; /* Keeps the aspect ratio */
   border: 2px solid #ddd; /* Adds a border around the image */
   display: inline-block; /* Centers the image within the container */
