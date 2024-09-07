@@ -1479,3 +1479,11 @@ section,
   text-align: center; /* Centers the content inside the div */
   margin-top: 20px; /* Add some margin if needed */
 }
+
+.Banner {
+  max-width: 300px; /* Adjust the width as needed */
+  height: auto; /* Keeps the aspect ratio */
+  border: 2px solid #ddd; /* Adds a border around the image */
+  display: inline-block; /* Centers the image within the container */
+  border-radius: 0; /* Removes any rounding of corners */
+}
