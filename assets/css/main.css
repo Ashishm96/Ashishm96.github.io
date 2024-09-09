@@ -1057,7 +1057,7 @@ section,
 /*--------------------------------------------------------------
 # Services Section
 --------------------------------------------------------------*/
-.project .project-item {
+.services .service-item {
   background-color: var(--surface-color);
   text-align: center;
   padding: 80px 20px;
@@ -1065,7 +1065,7 @@ section,
   height: 100%;
 }
 
-.project .project-item .icon {
+.services .service-item .icon {
   margin: 0 auto;
   width: 64px;
   height: 64px;
@@ -1079,13 +1079,13 @@ section,
   transform-style: preserve-3d;
 }
 
-.project .project-item .icon i {
+.services .service-item .icon i {
   color: var(--contrast-color);
   font-size: 28px;
   transition: ease-in-out 0.3s;
 }
 
-.project .project-item .icon::before {
+.services .service-item .icon::before {
   position: absolute;
   content: "";
   left: -8px;
@@ -1098,51 +1098,51 @@ section,
   transform: translateZ(-1px);
 }
 
-.project .project-item h3 {
+.services .service-item h3 {
   font-weight: 700;
   margin: 10px 0 15px 0;
   font-size: 22px;
 }
 
-.project .project-item p {
+.services .service-item p {
   line-height: 24px;
   font-size: 14px;
   margin-bottom: 0;
 }
 
-.project .project-item:hover {
+.services .service-item:hover {
   background: var(--accent-color);
   border-color: var(--accent-color);
 }
 
-.project .project-item:hover .icon {
+.services .service-item:hover .icon {
   background: var(--surface-color);
 }
 
-.project .project-item:hover .icon i {
+.services .service-item:hover .icon i {
   color: var(--accent-color);
 }
 
-.project .project-item:hover .icon::before {
+.services .service-item:hover .icon::before {
   background: color-mix(in srgb, var(--background-color), transparent 70%);
 }
 
-.project .project-item:hover h3,
-.project .project-item:hover p {
+.services .service-item:hover h3,
+.services .service-item:hover p {
   color: var(--contrast-color);
 }
 
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.project-details .project-list {
+.service-details .services-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.project-details .project-list a {
+.service-details .services-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1152,47 +1152,47 @@ section,
   transition: 0.3s;
 }
 
-.project-details .project-list a.active {
+.service-details .services-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.project-details .project-list a:hover {
+.service-details .services-list a:hover {
   border-color: var(--accent-color);
 }
 
-.project-details .project-img {
+.service-details .services-img {
   margin-bottom: 20px;
 }
 
-.project-details h3 {
+.service-details h3 {
   font-size: 26px;
   font-weight: 700;
 }
 
-.project-details h4 {
+.service-details h4 {
   font-size: 20px;
   font-weight: 700;
 }
 
-.project-details p {
+.service-details p {
   font-size: 15px;
 }
 
-.project-details ul {
+.service-details ul {
   list-style: none;
   padding: 0;
   font-size: 15px;
 }
 
-.project-details ul li {
+.service-details ul li {
   padding: 5px 0;
   display: flex;
   align-items: center;
 }
 
-.project-details ul i {
+.service-details ul i {
   font-size: 20px;
   margin-right: 8px;
   color: var(--accent-color);
