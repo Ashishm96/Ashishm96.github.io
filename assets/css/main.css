@@ -1135,14 +1135,14 @@ section,
 /*--------------------------------------------------------------
 # Service Details Section
 --------------------------------------------------------------*/
-.project-details .services-list {
+.project-details .project-list {
   background-color: var(--surface-color);
   padding: 10px 30px;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 90%);
   margin-bottom: 20px;
 }
 
-.project-details .services-list a {
+.project-details .project-list a {
   display: block;
   line-height: 1;
   padding: 8px 0 8px 15px;
@@ -1152,13 +1152,13 @@ section,
   transition: 0.3s;
 }
 
-.project-details .services-list a.active {
+.project-details .project-list a.active {
   color: var(--heading-color);
   font-weight: 700;
   border-color: var(--accent-color);
 }
 
-.project-details .services-list a:hover {
+.project-details .project-list a:hover {
   border-color: var(--accent-color);
 }
 
