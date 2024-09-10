@@ -411,6 +411,12 @@ h6 {
     background-color: rgba(33, 37, 41, 0.03);
   }
 
+  .nav-link.active {
+    font-weight: bold;
+    color: #0ce113; /* Or any color you want for the active link */
+  }
+  
+
   .mobile-nav-active {
     overflow: hidden;
   }
